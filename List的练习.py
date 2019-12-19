@@ -11,6 +11,9 @@ list = ['abcd', 786, 2.23, 'runoob', 70.2]
 tinylist = [123, 'runoob']
 
 print(list)  # 输出完整列表
+#列表下标插入对应的内容
+tinylist.insert(1,"我新来的")
+print("新的列表:",tinylist)  # 输出完整列表
 print(list[0])  # 输出列表第一个元素
 print(list[1:3])  # 从第二个开始输出到第三个元素
 print(list[2:])  # 输出从第三个元素开始的所有元素
