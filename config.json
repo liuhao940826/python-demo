@@ -1,0 +1,1 @@
+{"user_id_list": ["quotes-1006051672785037.txt", "quotes-2815543444-1577083938.7455082.txt", "quotes-2815543444-1577083938.7455082.txt"], "filter": 1, "since_date": "2019-12-23", "write_mode": ["csv"], "mysql_config": {"host": "host", "port": 3306, "user": "root", "password": "123456", "charset": "utf8mb4"}}
