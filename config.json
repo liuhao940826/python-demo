@@ -1,1 +1,16 @@
-{"user_id_list": ["quotes-1006051672785037.txt", "quotes-2815543444-1577083938.7455082.txt", "quotes-2815543444-1577083938.7455082.txt"], "filter": 1, "since_date": "2019-12-23", "write_mode": ["csv"], "mysql_config": {"host": "host", "port": 3306, "user": "root", "password": "123456", "charset": "utf8mb4"}}
+{
+  "DEFAULT_TIEBA": [
+    "处对象",
+    "我新来的",
+    "我新来的",
+    "我新来的2"
+  ],
+  "MYSQL_PASSWD": "root",
+  "MYSQL_DBNAME": {
+    "处对象": "fall_in_love",
+    "我新来的": "新的db名字",
+    "我新来的2": "新的db名字2"
+  },
+  "MYSQL_USER": "root",
+  "MYSQL_HOST": "localhost"
+}
