@@ -15,3 +15,14 @@ def call(i):
 # 使用for循环
 for i in yield_test(5):
     print(i, ",")
+
+
+
+
+
+
+
+
+
+
+

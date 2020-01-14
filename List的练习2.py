@@ -9,7 +9,16 @@
 # 列表截取的语法格式如下
 list = ['abcd', 786, 2.23, 'runoob', 70.2]
 
+list2 = ['q', 'w', 'e', 'r', 't']
+
+
 if 'abcd' not in list:
     print("进来")
 
 print(list.__contains__('abcd'))
+
+
+#集合下标遍历
+for i, value in enumerate(list):
+    print("下标:{},值:{}".format(i, value))
+    print("list2:{},值:{}".format(i,list2[i]))
