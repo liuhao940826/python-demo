@@ -1,16 +1,1 @@
-{
-  "DEFAULT_TIEBA": [
-    "处对象",
-    "我新来的",
-    "我新来的",
-    "我新来的2"
-  ],
-  "MYSQL_PASSWD": "root",
-  "MYSQL_DBNAME": {
-    "处对象": "fall_in_love",
-    "我新来的": "新的db名字",
-    "我新来的2": "新的db名字2"
-  },
-  "MYSQL_USER": "root",
-  "MYSQL_HOST": "localhost"
-}
+{"DEFAULT_TIEBA": ["处对象", "我新来的", "我新来的", "我新来的2", "我新来的2", "我新来的2"], "MYSQL_PASSWD": "root", "MYSQL_DBNAME": {"处对象": "fall_in_love", "我新来的": "新的db名字", "我新来的2": "新的db名字2"}, "MYSQL_USER": "root", "MYSQL_HOST": "localhost", "shuzi": 1, "fullCollectFlag": true}

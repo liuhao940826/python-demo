@@ -14,6 +14,14 @@ with open('config.json', 'r', encoding='utf8') as f:
 
     tbnames = config['DEFAULT_TIEBA']
     dbnames = config['MYSQL_DBNAME']
+    shuzi = config.get("shuzi")
+    fullCollectFlag= config.get("fullCollectFlag")
+
+    print("数字的类型:{}".format(type(shuzi)))
+    print("数字:{}".format(shuzi))
+
+    print("标识的类型:{}".format(type(fullCollectFlag)))
+    print("标识:{}".format(fullCollectFlag))
 
     loadNewConfigDbNameAndTbName(config, dbnames)
 
