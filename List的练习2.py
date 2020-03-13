@@ -18,6 +18,10 @@ if 'abcd' not in list:
 print(list.__contains__('abcd'))
 
 
+first = enumerate(list2)
+
+print("first:{}".format(first))
+
 #集合下标遍历
 for i, value in enumerate(list):
     print("下标:{},值:{}".format(i, value))
