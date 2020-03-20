@@ -33,8 +33,15 @@ print("贴吧接口请求地址:{}".format(type(yamldict['url']['tieba_applyTask
 #
 # print("最后的dict2:{}".format(dict2))
 
+class test2:
+
+    def __init__(self):
+        self.gender = 'male'
 
 
+a = test2
+a.isSend = True
+# print(a.__dict__)
 
-
-
+if a.isSend:
+    print('true的时候出现')
